@@ -1,4 +1,4 @@
-# rrmacademy-org
+# RRM Academy
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,132 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-rrmacademy-org is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://rrmacademy.org/
+RRM Academy is a nonprofit educational platform dedicated to restorative reproductive medicine, providing evidence‑based resources, scholarly articles, and AI‑enabled tools to help clinicians and patients understand and treat underlying causes of reproductive disorders. The site hosts a large library of peer‑reviewed research, offers courses, guides, and community support, and publishes a free Model Context Protocol (MCP) connector for AI assistants to access its content.
+
+**Areas:** Education · Health · Reproductive Medicine · Nonprofit · Community
+
+## RRM Academy on APIs.io
+
+Everything profiled for RRM Academy is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rrmacademy-org/](https://apis.io/providers/rrmacademy-org/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [RRM Academy Articles API](https://apis.io/apis/rrmacademy-org/rrmacademy-org-articles-api/) — The Articles API from RRM Academy — 2 operation(s) for articles.
+- [RRM Academy Ask API](https://apis.io/apis/rrmacademy-org/rrmacademy-org-ask-api/) — The Ask API from RRM Academy — 2 operation(s) for ask.
+- [RRM Academy Bulk API](https://apis.io/apis/rrmacademy-org/rrmacademy-org-bulk-api/) — The Bulk API from RRM Academy — 1 operation(s) for bulk.
+- [RRM Academy Health API](https://apis.io/apis/rrmacademy-org/rrmacademy-org-health-api/) — The Health API from RRM Academy — 1 operation(s) for health.
+- [RRM Academy MCP API](https://apis.io/apis/rrmacademy-org/rrmacademy-org-mcp-api/) — The Mcp API from RRM Academy — 1 operation(s) for mcp.
+- [RRM Academy Mutations API](https://apis.io/apis/rrmacademy-org/rrmacademy-org-mutations-api/) — The Mutations API from RRM Academy — 8 operation(s) for mutations.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [RRM Academy Agentic Access](https://apis.io/agentic-access/rrmacademy-org/rrmacademy-org-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ArticleList](https://apis.io/schemas/rrmacademy-org/rrmacademy-org-article-list/)
+- [AskResponse](https://apis.io/schemas/rrmacademy-org/rrmacademy-org-ask-response/)
+- [BulkArticleResponse](https://apis.io/schemas/rrmacademy-org/rrmacademy-org-bulk-article-response/)
+- [JsonRpcRequest](https://apis.io/schemas/rrmacademy-org/rrmacademy-org-json-rpc-request/)
+- [SandboxAskResponse](https://apis.io/schemas/rrmacademy-org/rrmacademy-org-sandbox-ask-response/)
+- [SignupRequest](https://apis.io/schemas/rrmacademy-org/rrmacademy-org-signup-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Rrmacademy Org Context](https://apis.io/jsonld/rrmacademy-org/rrmacademy-org-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [RRM Academy API Rules](https://apis.io/rules/rrmacademy-org/rrmacademy-org-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [RRM Academy Authentication](https://apis.io/security/rrmacademy-org/rrmacademy-org-authentication/)
+- [RRM Academy Domain Security](https://apis.io/security/rrmacademy-org/rrmacademy-org-domain-security/)
+- [RRM Academy Vulnerability Disclosure](https://apis.io/security/rrmacademy-org/rrmacademy-org-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [RRM Academy Plans Pricing](https://apis.io/plans/rrmacademy-org/rrmacademy-org-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://rrmacademy.org/)
+- [Documentation](https://rrmacademy.org/guides/)
+- [API reference](https://rrmacademy.org/connect/)
+- [Terms of service](https://rrmacademy.org/terms-of-use/)
+- [Privacy policy](https://rrmacademy.org/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 55.9** — strong · rubric 0.27.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 62.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 42.1 |
+| Access clarity | 62.6 |
+
+**Agent readiness 69.3** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.2** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rrmacademy-org/](https://apis.io/providers/rrmacademy-org/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for RRM Academy: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rrmacademy-org/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
